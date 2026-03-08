@@ -1029,6 +1029,12 @@ body {
   margin-left: 340px;
   filter: drop-shadow(15px 7px 12px rgba(43, 255, 24, 0.837));
 }
+.hero-6 {
+  width: 200px;
+  margin-top: -300px;
+  margin-left: -200px;
+  filter: drop-shadow(10px 10px 17px rgba(255, 170, 0, 0.536));
+}
 .flavour-1 {
   transform: scaleX(-1);
   width: 320px;
@@ -1075,129 +1081,138 @@ body {
   text-shadow: 0px 0px 4px rgb(255, 179, 179);
 }
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 360px) {
   .logo {
-    margin-top: -25px;
-    width: 110px;
-    height: 110px;
+    margin-top: -15px;
+    width: 100px;
+    height: 100px;
   }
   .navbar-nav {
     display: flex;
     flex-direction: row;
-    margin-left: -100px;
+    margin-left: -70px;
     margin-bottom: 45px;
-    margin-top: 77px;
+    margin-top: 167px;
   }
   .navbar-nav a {
+    margin-left: 5px;
     margin-bottom: 8px;
     border-radius: 35px;
-
     text-align: center;
     padding: 5px;
-    width: 80px;
-    font-size: 18px;
+    width: 65px;
+    font-size: 11px;
     font-weight: 700;
     color: white;
     text-shadow: 0px 0px 2px grey;
-    border-bottom: 2px solid rgba(255, 231, 144, 0.679);
-    border-top: 2px solid rgba(255, 231, 144, 0.679);
+    border-bottom: 3px solid rgba(255, 231, 144, 0.679);
+    border-top: 2px solid rgba(255, 214, 66, 0.679);
     transition: all 0.4s ease;
   }
   .kiri {
     margin-top: -40px;
-    padding-left: 30px;
+    padding-left: 0px;
+    margin-left: -10px;
   }
   .kiri h1 {
     color: rgb(250, 255, 95);
-    font-size: 80px;
-    padding-left: 80px;
+    font-size: 45px;
+    padding-left: 65%;
+    margin-top: -130px;
   }
   .kiri p {
-    margin-top: 50px;
-    padding-left: 50px;
+    width: 100%;
+    margin-top: 130px;
+    padding-left: 60px;
 
-    font-size: 15px;
+    font-size: 11px;
   }
   .hero-1 {
-    width: 170px;
-    margin-left: 60px;
-    margin-top: -1190px;
+    width: 150px;
+    margin-left: 30px;
+    margin-top: -1290px;
   }
   .hero-2 {
     width: 300px;
     margin-left: -70px;
-    margin-top: 50px;
+    margin-top: -45px;
   }
   .hero-3 {
-    width: 350px;
+    width: 300px;
     margin-top: -450px;
-    margin-left: -100px;
+    margin-left: -80px;
   }
   .hero-4 {
-    width: 100px;
+    width: 90px;
     margin-top: -780px;
     margin-left: 80px;
+  }
+  .hero-6 {
+    width: 150px;
+    margin-top: -300px;
+    margin-left: -240px;
+    filter: drop-shadow(10px 10px 17px rgba(255, 170, 0, 0.536));
   }
   .flavour-1 {
     transform: scaleX(-1);
     width: 180px;
-    margin-left: -310px;
+    margin-left: -210px;
   }
   .flavour-2 {
     transform: scaleX(1);
     width: 250px;
-    margin-left: 236px;
+    margin-left: 86px;
     margin-top: -280px;
   }
   .flavour-3 {
-    margin-top: -190px;
-    font-size: 60px;
+    margin-top: -150px;
+    font-size: 50px;
     font-weight: 800;
   }
   .stramberyh {
-    margin-top: 20px;
-    margin-left: -30px;
+    margin-top: 10px;
+    margin-left: -40px;
   }
   .stramberyh img {
-    width: 80px;
+    width: 70px;
   }
   .stramberyh img:hover {
     transform: rotate(0deg);
     width: 95px;
   }
   .stramberyp img {
-    width: 100px;
-    margin-top: -70px;
-    margin-left: 20px;
+    width: 90px;
+    margin-top: -60px;
+    margin-left: 10px;
   }
   .lemonh {
-    margin-top: -10px;
+    margin-top: 60px;
   }
   .lemonh img {
     margin-left: -83px;
-    width: 320px;
+    width: 270px;
   }
   .lemonh img:hover {
     width: 330px;
   }
   .lemonp {
     margin-left: 30px;
-    margin-top: -130px;
+    margin-top: -100px;
   }
   .lemonp img {
-    width: 150px;
+    width: 120px;
   }
   .berrih {
     margin-top: 0px;
-    margin-left: -40px;
+    margin-left: -50px;
   }
   .berrih img {
-    width: 200px;
+    width: 180px;
   }
   .berrip img {
-    width: 100px;
+    width: 70px;
     margin-top: -90px;
-    margin-left: 30px;
+    margin-left: 20px;
   }
   .straw-bg1 {
     margin-top: 10px;
@@ -1206,23 +1221,23 @@ body {
   }
   .straw-1p {
     display: grid;
-    margin-top: -100px;
-    font-size: 50px;
+    margin-top: -60px;
+    font-size: 40px;
     letter-spacing: 3px;
   }
   .straw-0 {
-    margin-left: -220px;
+    margin-left: -280px;
     filter: drop-shadow(8px 10px 4px rgba(65, 63, 63, 0.748));
     animation: putarstraw 3s ease infinite;
   }
   .straw-1 img {
     width: 100px;
     margin-top: -510px;
-    margin-left: 70px !important;
+    margin-left: 40px !important;
   }
   .straw-2 {
-    width: 120px;
-    margin-left: 90px;
+    width: 110px;
+    margin-left: 70px;
     margin-top: -390px;
     transform: scale(1.3) rotate(-5deg);
     filter: drop-shadow(7px 7px 10px rgba(59, 59, 59, 0.656));
@@ -1230,20 +1245,20 @@ body {
   }
   .bulat {
     position: absolute;
-    margin-left: 30px;
+    margin-left: -40px;
     margin-top: -260px;
     animation: pulse 3s infinite;
   }
   .straw-p {
-    width: 180px;
+    width: 143px;
     color: rgb(255, 255, 255);
     font-size: 11px;
     font-weight: 500;
-    margin-top: 20px;
+    margin-top: 0px;
   }
   .bstraw a button {
     margin-left: -3px;
-    padding: 10px;
+    padding: 7px;
     padding-left: 18px;
     padding-right: 18px;
     border: 2px solid white;
@@ -1251,19 +1266,19 @@ body {
     color: rgb(255, 68, 99);
     background-color: white;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 11px;
     transition: all 0.4s;
   }
   .bstraw a button:hover {
-    padding: 10px;
-    padding-left: 23px;
-    padding-right: 23px;
+    padding: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .straw-bg2 {
     transform: rotate(25deg);
-    margin-left: 89px;
+    margin-left: 76px;
     width: 60px;
-    margin-top: -75px;
+    margin-top: -65px;
     filter: drop-shadow(4px 4px 2px rgba(255, 255, 255, 0.889));
   }
   @keyframes putarstraw {
@@ -1279,32 +1294,32 @@ body {
   }
   .daunlemon {
     width: 180px;
-    margin-left: 340px;
+    margin-left: 200px;
     margin-top: 0px;
     filter: drop-shadow(10px 15px 6px rgba(73, 55, 31, 0.863));
     animation: floating 4s infinite;
   }
   .lemon-h1 {
-    margin-top: -40px;
-    font-size: 50px;
+    margin-top: 10px;
+    font-size: 40px;
     font-weight: 800;
+    margin-left: -28px;
     color: rgb(255, 255, 255);
-    text-align: center;
     letter-spacing: 15px;
     text-shadow: 0px 4px 5px rgb(70, 70, 70);
   }
   .lemon-p {
-    width: 360px;
+    width: 350px;
     color: rgb(236, 236, 236);
     font-size: 12px;
     font-weight: 500;
-    margin-top: -55px;
+    margin-top: -35px;
     text-shadow: 0px 0px 4px rgb(255, 179, 179);
-    margin-left: -100px;
+    margin-left: -120px;
   }
   .blemon a button {
-    margin-left: 68px;
-    padding: 10px;
+    margin-left: 48px;
+    padding: 7px;
     padding-left: 18px;
     padding-right: 18px;
     border: 2px solid white;
@@ -1312,23 +1327,23 @@ body {
     color: rgb(255, 166, 0);
     background-color: white;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 11px;
     transition: all 0.4s;
   }
   .blemon a button:hover {
-    padding: 10px;
-    padding-left: 23px;
-    padding-right: 23px;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .daunlemon2 {
     position: relative;
-    width: 70px;
-    margin-left: 163px;
-    margin-top: -70px;
+    width: 60px;
+    margin-left: 123px;
+    margin-top: -60px;
     filter: drop-shadow(0px 5px 4px rgba(255, 255, 255, 0.889));
   }
   .lemon-2 {
-    margin-top: -70px;
+    margin-top: -40px;
     width: 280px;
     margin-left: -70px;
     filter: drop-shadow(10px 10px 4px rgba(87, 66, 34, 0.71));
@@ -1336,43 +1351,42 @@ body {
   }
   .lemon-1 img {
     transform: rotate(-10deg);
-    margin-left: -75px;
-    width: 320px;
+    margin-left: -85px;
+    width: 300px;
     margin-top: -270px;
     filter: drop-shadow(10px 15px 6px rgba(83, 55, 29, 0.863));
   }
   .lemon-3 {
     position: relative;
-    width: 160px;
-    margin-top: -170px;
-    margin-left: 45px;
-    z-index: 999 !important;
-    filter: drop-shadow(10px 10px 6px rgba(181, 110, 10, 0.863));
+    width: 130px;
+    margin-top: -140px;
+    margin-left: 35px;
+
     animation: floating 4.5s infinite;
   }
   .grape-bg1 {
     margin-left: -12px;
-    width: 170px;
+    width: 130px;
     filter: drop-shadow(10px 10px 3px rgba(60, 62, 60, 0.49));
-    margin-top: -70px;
+    margin-top: -120px;
   }
   .grape-3 {
-    width: 200px;
-    margin-top: 50px;
+    width: 160px;
+    margin-top: 30px;
     margin-left: -190px;
-    filter: drop-shadow(10px 10px 4px rgba(65, 26, 71, 0.71));
+    filter: drop-shadow(10px 10px 4px rgba(50, 24, 54, 0.386));
     animation: floating 4.5s infinite;
   }
   .grape-5 {
-    width: 250px;
-    margin-left: 280px;
-    margin-top: -300px;
+    width: 150px;
+    margin-left: 210px;
+    margin-top: -350px;
     transform: scaleX(-1);
     filter: drop-shadow(-5px 5px 4px rgba(17, 70, 31, 0.71));
   }
   .grapep {
-    margin-top: -190px;
-    font-size: 50px;
+    margin-top: -130px;
+    font-size: 40px;
     font-weight: 800;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -1380,24 +1394,24 @@ body {
     text-shadow: 0px 4px 5px rgb(70, 70, 70);
   }
   .grape-1 img {
-    width: 300px;
-    margin-left: -30px;
+    width: 280px;
+    margin-left: -50px;
     filter: drop-shadow(10px 10px 4px rgba(87, 34, 75, 0.71));
     margin-top: -167px;
     animation: grape1 3s ease infinite;
   }
   .grape-4 {
     width: 166px;
-    margin-top: -30px;
-    margin-left: 70px;
+    margin-top: -90px;
+    margin-left: 30px;
     filter: drop-shadow(10px 10px 4px rgba(58, 29, 63, 0.555));
     animation: grape4 3s ease infinite;
   }
   .grape-2 {
     position: relative;
-    width: 110px;
-    margin-top: -160px;
-    margin-left: 110px;
+    width: 90px;
+    margin-top: -140px;
+    margin-left: 90px;
     filter: drop-shadow(10px 10px 4px rgba(48, 25, 52, 0.555));
     animation: grape1 4s ease infinite;
   }
@@ -1406,22 +1420,23 @@ body {
     height: 100px;
     background-color: rgb(98, 0, 178);
     border-radius: 50%;
-    margin-left: -20px;
-    margin-top: -150px;
+    margin-left: -50px;
+    margin-top: -120px;
     animation: pulse 3s infinite;
   }
   .grapep2 {
-    width: 175px;
+    width: 125px;
     margin-left: 15px;
     color: rgb(236, 236, 236);
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 500;
-    margin-top: 10px;
+    margin-top: -70px;
     text-shadow: 0px 0px 4px rgb(255, 179, 179);
   }
   .bgrape a button {
+    width: 100px;
     margin-left: 13px;
-    padding: 10px;
+    padding: 7px;
     padding-left: 18px;
     padding-right: 18px;
     border: 2px solid white;
@@ -1429,17 +1444,24 @@ body {
     color: rgb(152, 0, 203);
     background-color: white;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 11px;
     transition: all 0.4s;
   }
   .bgrape a button:hover {
-    padding: 10px;
-    padding-left: 22px;
-    padding-right: 22px;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .grape-bg2 {
+    width: 40px;
+    transform: rotate(19deg);
+    margin-left: 95px;
+    margin-top: -60px;
+    filter: drop-shadow(3px 3px 4px rgba(255, 255, 255, 0.71));
   }
   #about {
     height: auto;
-    padding: 60px 80px;
+    padding: 60px 7%;
   }
 
   /* Judul */
@@ -1478,14 +1500,14 @@ body {
     filter: blur(80px);
   }
   #contact {
-    padding: 70px 55px;
+    padding: 40px 8%;
   }
 
   /* TITLE */
   .contact-title {
-    font-size: 36px;
+    font-size: 30px;
     letter-spacing: 3px;
-    margin-bottom: 40px;
+    margin-bottom: 90px;
   }
 
   /* CONTAINER JADI 1 KOLOM */
@@ -1497,7 +1519,7 @@ body {
   /* CARD */
   .contact-info,
   .contact-form {
-    padding: 55px;
+    padding: 35px;
     border-radius: 26px;
   }
 
