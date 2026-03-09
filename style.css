@@ -356,10 +356,6 @@ body {
 
 #grape {
   background: linear-gradient(rgb(248, 255, 33), rgb(182, 0, 166));
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  padding: 50px 0;
 }
 .grape-bg1 {
   margin-left: -90px;
